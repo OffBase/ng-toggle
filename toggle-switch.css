@@ -1,4 +1,4 @@
-.ng-toggle-wrap {
+.toggle-switch-wrap {
     display: inline-block;
     margin: 3px;
     position: relative;
@@ -8,21 +8,21 @@
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
     z-index: 0;
 }
-.ng-toggle-wrap:hover {
+.toggle-switch-wrap:hover {
     z-index: 1;
 }
-.ng-toggle-wrap.vertical {
+.toggle-switch-wrap.vertical {
     height: 62px;
 }
-.ng-toggle-wrap .ng-toggle-switch {
+.toggle-switch-wrap .toggle-switch-switch {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.ng-toggle-wrap.vertical .ng-toggle-switch {
+.toggle-switch-wrap.vertical .toggle-switch-switch {
     -webkit-transform: translate(-50%, -50%) rotate(-90deg);
     transform: translate(-50%, -50%) rotate(-90deg);
 }
-.ng-toggle-switch {
+.toggle-switch-switch {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -35,25 +35,25 @@
     transition: background-color .25s ease;
     cursor: pointer;
 }
-.ng-toggle-switch.true {
+.toggle-switch-switch.true {
     background-color: #68C527;
 }
-.ng-toggle-switch.false {
+.toggle-switch-switch.false {
     background-color: #ff4d35;
 }
-.ng-toggle-false {
+.toggle-switch-false {
     position: absolute;
     left: 0;
     width: 50%;
     height: 100%;
 }
-.ng-toggle-true {
+.toggle-switch-true {
     position: absolute;
     right: 0;
     width: 50%;
     height: 100%;
 }
-.ng-toggle-handle {
+.toggle-switch-handle {
     width: 24px;
     height: 24px;
     border-radius: 100%;
@@ -64,13 +64,13 @@
     -webkit-transition: all .2s ease-out;
     transition: all .2s ease-out;
 }
-.ng-toggle-switch.true .ng-toggle-handle {
+.toggle-switch-switch.true .toggle-switch-handle {
     left: 29px;
 }
-.ng-toggle-switch.false .ng-toggle-handle {
+.toggle-switch-switch.false .toggle-switch-handle {
     left: 3px;
 }
-.ng-toggle-tooltip {
+.toggle-switch-tooltip {
     display: inline-block;
     position: absolute;
     right: 100%;
@@ -90,10 +90,10 @@
     text-align: right;
     white-space: nowrap;
 }
-.ng-toggle-wrap:hover .ng-toggle-tooltip {
+.toggle-switch-wrap:hover .toggle-switch-tooltip {
     opacity: 1;
 }
-.ng-toggle-tooltip:before {
+.toggle-switch-tooltip:before {
     width: 5px;
     height: 5px;
     border-style: solid;
@@ -107,7 +107,7 @@
     content: '';
     pointer-events: none;
 }
-.ng-toggle-tooltip .active {
+.toggle-switch-tooltip .active {
     color: white;
     box-shadow: 0 0 3px rgba(0, 0, 0, .4);
     -webkit-transition: all .2s ease;

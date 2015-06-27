@@ -1,6 +1,6 @@
 {
-    "name": "ng-toggle",
-    "main": "ng-toggle.js",
+    "name": "toggle-switch",
+    "main": "toggle-switch.js",
     "version": "1.2.0",
     "homepage": "https://github.com/tannerlinsley/ng-toggle",
     "authors": [
